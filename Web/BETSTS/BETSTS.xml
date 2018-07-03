@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BETSTS</name>
+    </assembly>
+    <members>
+        <member name="M:BETSTS.Areas.Api.Controllers.BetController.Create(BETSTS.Core.Models.User.UserBetModel)">
+            <summary>
+            Create Bet
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.BetController.Update(BETSTS.Core.Models.User.UpdateBetModel)">
+            <summary>
+            Update User Bet
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.BetController.Get(System.Guid)">
+            <summary>
+            Get Bet User
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.BetController.GetAllUserBet">
+            <summary>
+            Get All User Bet
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.BetController.GetAll">
+            <summary>
+            Get All
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.BetController.GetHistory">
+            <summary>
+            Get History Bet
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.BetController.HistoryPaid">
+            <summary>
+            Get History Paid
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.MatchController.Create(BETSTS.Core.Models.Match.MatchModel)">
+            <summary>
+            Create Match
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.MatchController.Get(System.Guid)">
+            <summary>
+            Get Match By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.MatchController.GetAll(System.String)">
+            <summary>
+            Get All Match Updated Socre
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.MatchController.UpdateScore(System.Guid,BETSTS.Core.Models.Match.UpdateTeamMatch)">
+            <summary>
+            Update score
+            </summary>
+            <param name="matchId"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.MatchController.Delete(System.Guid)">
+            <summary>
+            Delete match
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.MatchController.UpdateTotalAll">
+            <summary>
+            Update toal amout All
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.MatchController.SentMoney(System.Guid,BETSTS.Core.Models.User.ExchargeModel)">
+            <summary>
+            Sent money for user
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.PriceConfigController.Create(BETSTS.Core.Models.Match.PriceConfigurationModel)">
+            <summary>
+            Create Price Configuration Match
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.PriceConfigController.GetAll">
+            <summary>
+            Get All Price Config
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.TeamController.GetAll">
+            <summary>
+            Get All Football Team
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.TeamController.Create(BETSTS.Core.Models.FootballTeamModel)">
+            <summary>
+            Create Football Team
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.TeamController.Get(System.Guid)">
+            <summary>
+            Get Team By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.TeamController.Delete(System.Guid)">
+            <summary>
+            Delete Football Team
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.TeamController.Update(System.Guid,BETSTS.Core.Models.FootballTeamModel)">
+            <summary>
+            Update Football Team
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.TeamController.Test">
+            <summary>
+            Test
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.TokenController.GetToken(BETSTS.Core.Models.Authentication.RequestTokenModel)">
+            <summary>
+            Get Token
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.TokenController.SetPassword(BETSTS.Core.Models.Authentication.SetPasswordModel)">
+            <summary>
+            Set Password
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.UserController.Get(System.Guid)">
+            <summary>
+                Get Detail User 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.UserController.GetProfile">
+            <summary>
+                Get Logged In User Profile: Basic info and permissions.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.UserController.Create(BETSTS.Core.Models.User.CreateUserModel)">
+            <summary>
+                Create User 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.UserController.Delete(System.Guid)">
+            <summary>
+                Delete User 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.UserController.GetAll">
+            <summary>
+            Get All User with Amout
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Areas.Api.Controllers.UserController.ChangePassword(BETSTS.Core.Models.User.ChangePasswordModel)">
+            <summary>
+            Change Password
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BETSTS.Attributes.Auth.CombineAuthAttribute">
+            <inheritdoc />
+            <summary>
+                Attribute to mark combine (OR conditional) with higher level AuthorizeAttribute 
+            </summary>
+        </member>
+        <member name="M:BETSTS.Filters.Auth.FilterContextExtensions.IsAuthenticated(Microsoft.AspNetCore.Mvc.Filters.FilterContext)">
+            <summary>
+                Check user is authentication, also check AllowAnonymous attribute. 
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.Filters.Auth.FilterContextExtensions.IsAuthorized(Microsoft.AspNetCore.Mvc.Filters.FilterContext)">
+            <summary>
+                Check user is authorization. Please call <see cref="M:BETSTS.Filters.Auth.FilterContextExtensions.IsAuthenticated(Microsoft.AspNetCore.Mvc.Filters.FilterContext)" /> to check
+                authenticated before call this method.
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="P:BETSTS.Models.StaticFileModel.FolderRelativePath">
+            <summary>
+                Use exactly folder name case in explorer 
+            </summary>
+            <remarks> Relative path from <see cref="P:BETSTS.Models.StaticFileModel.AreaName" /> </remarks>
+        </member>
+        <member name="P:BETSTS.Models.StaticFileModel.HttpRequestPath">
+            <summary>
+                Use lower case for http request 
+            </summary>
+        </member>
+        <member name="P:BETSTS.Models.StaticFileModel.MaxAgeResponseHeader">
+            <summary>
+                Max Age in Cache Control Header 
+            </summary>
+            <remarks> Use the . separator between days and hours, see more: https://msdn.microsoft.com/en-us/library/system.timespan.aspx </remarks>
+        </member>
+        <member name="M:BETSTS.StartupAuth.AddAuth(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+                Binding Logged In User, MVC and API Authentication Filter
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BETSTS.StartupMvcApi.AddAntiforgeryToken(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+                Configures the anti-forgery tokens for better security. 
+            </summary>
+            <param name="services"></param>
+            <remarks> See: http://www.asp.net/mvc/overview/security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages </remarks>
+        </member>
+    </members>
+</doc>

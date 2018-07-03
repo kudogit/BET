@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <!-- Information -->
+    <PropertyGroup>
+        <Authors>Top Nguyen</Authors>
+        <Copyright>http://topnguyen.net</Copyright>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+        <LangVersion>7.2</LangVersion>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    </PropertyGroup>
+    <!-- Copy to Ouput -->
+    <ItemGroup>
+        <Content Include="connectionconfig.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\BETSTS.Contract.Repository\BETSTS.Contract.Repository.csproj"/>
+        <ProjectReference Include="..\..\Cross\BETSTS.Core\BETSTS.Core.csproj"/>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.0"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.1.0"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.0"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0"/>
+    </ItemGroup>
+</Project>

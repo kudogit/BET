@@ -1,0 +1,7 @@
+﻿{
+  "ConnectionStrings": {
+    "Development": "Data Source=(local);Initial Catalog=BETTET;Integrated Security=True;MultipleActiveResultSets=True",
+    "Staging": "Data Source=STS23;Initial Catalog=BETTET;User ID=sa;Password=123456;Trusted_Connection=False;MultipleActiveResultSets=True",
+    "Production": "Data Source=STS23;Initial Catalog=BETTET;User ID=sa;Password=123456;Trusted_Connection=False;MultipleActiveResultSets=True"
+  }
+}
