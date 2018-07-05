@@ -19,5 +19,6 @@ namespace BETSTS.Areas.Api.Controllers
     public class BaseController : Controller
     {
         public const string AreaName = "api";
+        //test
     }
 }
