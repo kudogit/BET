@@ -1,6 +1,7 @@
 ﻿{
   "ConnectionStrings": {
-    "Development": "Server=bamboost.database.windows.net;Database=bamboost;user id=bamboost;password=divaco123!@#;Trusted_Connection=False;Encrypt=True;",
+    "Development": "Data Source=(local);Initial Catalog=BETTET;Integrated Security = true;MultipleActiveResultSets=True",
+    //"Development": "Server=bamboost.database.windows.net;Database=bamboost;user id=bamboost;password=divaco123!@#;Trusted_Connection=False;Encrypt=True;",
     "Staging": "Data Source=STS23;Initial Catalog=BETTET;User ID=sa;Password=123456;Trusted_Connection=False;MultipleActiveResultSets=True",
     "Production": "Data Source=STS23;Initial Catalog=BETTET;User ID=sa;Password=123456;Trusted_Connection=False;MultipleActiveResultSets=True"
   }
